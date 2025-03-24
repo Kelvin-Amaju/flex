@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Audiowide&family=Bowlby+One&family=Goldman:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Zen+Dots&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Audiowide&family=Boldonse&family=Bowlby+One&family=Goldman:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Zen+Dots&display=swap');
+
 /* Webfont: Astrella-Regular */@font-face {
   font-family: 'Astrella';
   src: url('Astrella.eot'); /* IE9 Compat Modes */
@@ -20,6 +22,7 @@
     --heading-font2: "Anton SC", serif;
     --heading-font3: "Prompt", serif; 
     --nav-font: "Inter",  sans-serif;
+    --hero-font: "Boldonse", system-ui;
   }
   
   /* Global Colors - The following color variables are used in the website.*/
@@ -201,14 +204,16 @@
     }
   
     .navmenu ul {
+      font-family: 'Poppins', sans-serif;
       display: none;
       list-style: none;
       position: absolute;
       inset: 60px 20px 20px 20px;
       padding: 10px 0;
       margin: 0;
-      border-radius: 6px;
-      background-color: #550dfd;
+      margin-top: 40px;
+      border-radius: 30px;
+      background-color: #6e2fcc;
       overflow-y: auto;
       transition: 1s;
       z-index: 9998;
@@ -350,9 +355,6 @@
     height: 450px;
   }
 
-  .hero-section {
-    /*margin-top: 100px;*/
-  }
 }
 
 .hero-section .hero-post-item img {
@@ -743,33 +745,16 @@
 
 .card-image {
   /*padding: 1.1em 2em;*/
-  background: none;
-  border: 2px solid #fff;
   cursor: pointer;
   position: relative;
   overflow: hidden;
   transition: all 0.3s;
-  border-radius: 12px;
-  background-color: #fcfcfc;
-  box-shadow: 0 2px 0 2px #000;
- }
  
- .card-image:before {
-  content: "";
-  color: #000;
-  position: absolute;
-  width: 100px;
-  height: 120%;
-  background-color: #c4c4c438;
-  /*border: #00000015 2px solid;*/
-  top: 50%;
-  transform: skewX(30deg) translate(-120%, -20%);
-  transition: all 0.8s;
  }
  
  .card-image:hover {
-  background-color: #4cc9f0;
-  box-shadow: 0 2px 0 2px #0d3b66;
+  background-color: #994cf03b;
+ /* box-shadow: 0 2px 0 2px #0d3b66;*/
  }
  
  .card-image:hover::before {
@@ -843,4 +828,63 @@
 .flex-text {
   font-family: "PT Sans", Calibri, Tahoma, sans-serif;
   font-weight: 200;
+}
+
+.hero-font {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.form {
+  border: #6e2fcc 5px solid;
+}
+
+.form-control {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+footer {
+  height: 100px;
+  border-radius: 30px;
+}
+
+
+/* Banner Section */
+.banner {
+  background: url('./assets/img/join-us.png') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.banner-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.banner-content {
+  position: relative;
+  z-index: 1;
+}
+/* Custom styles for bottom drawer modal */
+@media (max-width: 768px) {
+  .modal.bottom-drawer .modal-dialog {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      margin: 0;
+  }
+  .modal.bottom-drawer .modal-content {
+      border-radius: 20px 20px 0 0;
+      height: 100vh;
+      overflow-y: auto;
+  }
 }

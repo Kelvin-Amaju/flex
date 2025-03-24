@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WaitList</title>
+    <title>Flex</title>
 
     <!-- Favicons -->
     <link href="./assets/img/favicon.png" rel="icon">
@@ -31,7 +31,7 @@
     <!--  Main CSS File -->
     <link href="./assets/css/style.css" rel="stylesheet">
   </head>
-<body class="container-fluid bg-gray-100"><!--bg-indigo-900 backdrop-filter backdrop-blur-lg bg-opacity-50-->
+<body class=" bg-cream" style="background: url(./assets/img/radiant-gradient.svg)cover/ no-repeat;"><!--bg-indigo-900 backdrop-filter backdrop-blur-lg bg-opacity-50-->
 
     <!-- Header -->
     <header id="header" class="sticky z-50 top-3 inset-x-0 header d-flex align-items-center " data-aos="fade-down" data-aos-delay="10">
@@ -39,61 +39,38 @@
   
         <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
           <!-- <img src="assets/img/logo.png" alt=""> --> <!--for image logo-->
-          <h1 class="logo p-2 text-white bg-gray-900 bg-indigo-900 backdrop-filter backdrop-blur-lg bg-opacity-50 fw-bold m-2 butn fs-4 flex-title font-extrabold rounded-md px-3.5 py-2.5 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-white">LOGO</h1>
+          <h1 class="logo hero-font p-2 text-white bg-gray-900 bg-indigo-900 backdrop-filter backdrop-blur-lg bg-opacity-50 fw-bold m-2 butn fs-4 flex-title font-extrabold rounded-md px-3.5 py-2.5 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-white">flex</h1>
         </a>
   
         <!--Nav menu for desktop and mobile-->
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="butn p-2 bg-black rounded-lg text-white m-2">Home</a></li>
-            <li><a href="#about" class="butn p-2 bg-white rounded-lg text-dark m-2">About</a></li>
-            <li><a href="#blog" class="butn p-2 bg-white rounded-lg text-dark m-2">Blog</a></li>
+            <li><a href="#hero" class=" p-2 rounded-lg text-white m-2">Home</a></li>
+            <li><a href="#about" class=" p-2 rounded-lg text-white m-2">About</a></li>
+            <li><a href="#blog" class=" p-2 rounded-lg text-white m-2">Blog</a></li>
           </ul>
           
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
-        <!--<ul class="text-white sm:text-black p-2">
-          <li><a href="#hero" class="p-2 butn rounded-lg sm:text-black text-white text-md m-2 me-4  px-3.5 py-2.5 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-white">Home</a></li>
-          <li><a href="#about" class="p-2 butn rounded-lg sm:text-black text-white text-md m-2 me-4 px-3.5 py-2.5 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-white">About</a></li>
-          <li><a href="#blog" class="p-2 butn rounded-lg sm:text-black text-white text-md m-2 me-4 px-3.5 py-2.5 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-white">Blog</a></li>
-        </ul>-->
         
         <a class="butn p-2 bg-white rounded-lg text-black fw-bold font-extrabold m-2 px-3.5 py-2.5 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-white" href="#">WAIT-LIST</a>
-  
       </div>
     </header>
     <!--End Header-->
 
-    <style>
-      body::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: url('./assets/img/radiant-gradient.svg') no-repeat center;
-        background-size: cover;
-        opacity: 0.3; /* Adjust transparency */
-        z-index: -10;
-      }
-      
-    </style>
-
   <main class="container-fluid">
 
     <!-- Hero Section -->
-    <section id="hero-section" class="hero-section mt-3 section swiping" data-aos="fade-right" data-aos-delay="10">
-      <div class="swiping" data-aos="fade-up" data-aos-delay="10">
+    <section id=" hero-section" class="hero-section mt-3 section swiping" data-aos="fade-right" data-aos-delay="10">
+      <div class="container-fluid swiping" data-aos="fade-up" data-aos-delay="10">
         <div class="container-fluid hero-section-slider rounded-5 swiper mySwiper text-center swiping">
           <div class="swiper-wrapper">
             <!-- First slide-->
             <div class="swiper-slide">
               <div class="bg-purple-500 hero-post-item rounded-5">
-                <!--<img src="./assets/img/woman1.jpg" alt="hero image">-->
+                <img src="./assets/img/future-woman.png" alt="hero image">
                 <div class="hero-post-content">
-                  <h2><a href="#">First page slide that will carry key tips about open market</a></h2>
+                  <h2><a href="#" class="hero-font">First page slide that will carry key tips about open market</a></h2>
                   <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate.</p>
                   <!--<a href="#" class="socialmedia-links">Read More <i class="bi bi-arrow-right"></i></a>-->
                 </div>
@@ -102,9 +79,9 @@
             <!-- Second Slide-->
             <div class="swiper-slide">
               <div class="hero-post-item rounded-5">
-                <!--<img src="./assets/img/woman1.jpg" alt="hero image">-->
+                <img src="./assets/img/blank-phone.jpg" alt="hero image">
                 <div class="hero-post-content">
-                  <h2><a href="#">Second page slide that will carry key tips about open market</a></h2>
+                  <h2><a href="#" class="hero-font">Second page slide that will carry key tips about open market</a></h2>
                   <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate.</p>
                   <!--<a href="#" class="socialmedia-links">Read More <i class="bi bi-arrow-right"></i></a>-->
                 </div>
@@ -113,9 +90,9 @@
             <!-- Third Slide-->
             <div class="swiper-slide">
               <div class="hero-post-item rounded-5">
-                <!--<img src="./assets/img/woman1.jpg" alt="hero image">-->
+                <img src="./assets/img/white-woman.png" alt="hero image">
                 <div class="hero-post-content">
-                  <h2><a href="#">Third page slide that will carry key tips about open market</a></h2>
+                  <h2><a href="#" class="hero-font">Third page slide that will carry key tips about open market</a></h2>
                   <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce porttitor metus eget lectus consequat, sit amet feugiat magna vulputate.</p>
                   <!--<a href="#" class="socialmedia-links">Read More <i class="bi bi-arrow-right"></i></a>-->
                 </div>
@@ -128,179 +105,67 @@
     </section>
     <!-- End Hero Section -->
 
-    <!-- Tests Pro-->
-    <div class="container-fluid mt-3 rounded-5" style="background: linear-gradient(135deg, #b3c1cf 10%, #7857fe 100%);">
-      <div class="row g-2">
-          <div class="col-md-6 ">
-              <div class=" bg-purple-500 text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center shadow-lg" style="height: 300px;">
-                  <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-          </div>
-          <div class="col-md-3 ">
-              <div class=" bg-black text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px;">
-                  <div class=" bg-purple-600 backdrop-filter backdrop-blur-lg bg-opacity-40 p-3 fs-1 px-5 rounded-4">a</div>
-              </div>
-          </div>
-          <div class="col-md-3">
-              <div class=" bg-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-80 text-black shadow-lg mt-4 rounded-5 p-5" style="height: 300px;">
-                  <div class=" "><h1 class="fw-bold text-center"><span class="fw-bold rounded-circle bg-black text-white p-3">L</span> Track Projects</h1>
-                      <div class="slider p-2 rounded-5 bg-purple-500 mt-5 px-4">
-                          <h1>Done</h1>
-                      </div>
-                      <div class="slider p-2 rounded-5 bg-purple-500 mt-2 px-4">
-                          <h1>In-Progress</h1>
-                      </div>
-                      <div class="slider p-2 rounded-5 bg-purple-500 mt-2 px-4">
-                          <h1>In-Progress</h1>
-                      </div>
-                  </div>
-              </div>
+    
+
+    <!--test-->
+
+    <!--Small Screen-->
+    <section class="swiper-slide small-hero text-black mt-2 rounded-5 flex-md-row justify-content-center align-items-center text-center text-md-start d-block d-md-none">
+      <div class="mt-4 d-flex justify-content-around align-items-center flex-wrap">
+          <div class="fw-bold mb-4 hero-font" style="line-height: 1.4; font-size: clamp(2rem, 4vw, 4rem);">
+              Experience Endless Possibilities With <br> 
+              <span class="text-purple-500 relative inline-block stroke-current">flex 
+                <svg class="absolute -bottom-0.5 w-full max-h-1.5" viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                  <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2"></path>
+                </svg>
+              </span>
           </div>
       </div>
-      <!--Second-->
+      
+      <!-- Image Container: Swiper Carousel on Mobile, Row on Large Screens -->
+      <div class=" relative d-flex flex-column justify-content-center align-items-center mt-4 mt-md-10 w-100">
+          <div class=" w-100">
+              <!-- Swiper Wrapper for Mobile --> 
+              <div class="d-md-none swiper mySwiper" style="width:-4000px;">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img class="rounded-5 shadow-lg border-5 border-gray-200 img-fluid w-100" src="./assets/img/blank-phone.jpg" alt="" style="object-fit: cover; width: 400px; height: 400px;"></div>
+                      <div class="swiper-slide"><img class="rounded-5 shadow-lg border-5 border-gray-200" src="./assets/img/future-woman.png" alt="" style="object-fit: cover; width: 100%; height: 400px;"></div>
+                      <div class="swiper-slide"><img class="rounded-5 shadow-lg border-5 border-gray-200" src="./assets/img/white-woman.png" alt="" style="object-fit: cover; width: 100%; height: 400px;"></div>
+                  </div>
+                  <!-- Swiper Pagination & Navigation -->
+                  <!--<div class="swiper-pagination"></div>-->
+              </div>
+          </div>
+      </div>      
+    </section>
+    <!--Small Screen-->
+
+    <!--test-->
+
+    <!-- End Centered Hero-->
+    
+      <!--Under Hero-->
       <div class="row g-2">
-          <div class="col-md-6 ">
-              <div class=" bg-black text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px;">
-                  <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-          </div>
-          <div class="col-md-6 ">
-              <div class="bg-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-80 text-black mt-4 rounded-5 p-5 d-flex justify-content-between" style="height: 300px;">
-                  <div class=" fw-bold fs-1" style="line-height: 0.9;">Endless <br> Possibilities <br> with <span class="text-purple-500">flex</span>
-                    <div class="mt-4 d-flex justify-content-center align-items-center">
-                      <div class="btn btn-primary d-flex justify-content-center align-items-center rounded-circle" style="width: 50px; height: 50px;">A</div><div class="btn btn-primary p-3 rounded-5 text-sm mx-2"> 20k Satisfies users</div>
-                    </div>
-                  </div>
-                  <div class="relative d-flex justify-content-end">
-                      <div class="p-5 bg-purple-400 backdrop-filter backdrop-blur-lg bg-opacity-10 rounded-5 h-100 d-flex justify-content-center align-items-center" style=" margin-left:90px;">
-                          <img class=" rounded-5 mx-2 shadow-lg" src="./assets/img/blank-phone.jpg" alt="" style="object-fit:cover; width: 100%; height: 40vh; margin-left:0px;">
-                          <img class=" rounded-5 mx-2 shadow-lg" src="./assets/img/future-woman.png" alt="" style="object-fit:cover; width: 100%; height: 40vh; margin-left:0px;">
-                      </div>
-                      
-                  </div>
-
-              </div>
-          </div>
-          <!--Slide Start-->
-          <div class="swiper swiping coverflowSwiper ">
-            <div class="swiper-wrapper"> <!--d-flex justify-content-center align-items-center-->
-              <!-- First Slide-->
-              <div class="swiper-slide bg-dark text-white rounded-5 d-flex justify-content-center align-items-center">
+        <div class="col-md-3 ">
+            <div class=" text-white mt-2 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px; background-color: #7857fe;">
                 <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-
-              <!--Second Slide-->
-              <div class="swiper-slide bg-gray-900 text-white rounded-5 d-flex justify-content-center align-items-center">
-                <div class=" ">Deep concerns about student 2 ...</div>
-              </div>
-
-              <!--Third Slide-->
-              <div class="swiper-slide bg-gray-800 text-white rounded-5 d-flex justify-content-center align-items-center">
-                <div class="">Deep concerns about student 3 ...</div>
-              </div>
-              
             </div>
-            <div class="swiper-pagination"></div>
-          </div>
-          <!--End slide-->
-          <!--New Slide-->
-          <div class="col-md-6 ">
-            <div class="swiper fadeSwiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide bg-black text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px;">
-                  <div class=" ">Deep concerns about student 1 ...</div>
-                </div>
-                <div class="swiper-slide bg-black text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px;">
-                  <div class=" ">Deep concerns about student 2 ...</div>
-                </div>
-                <div class="swiper-slide bg-white text-black mt-4 rounded-5 p-5 d-flex justify-content-between" style="height: 300px;">
-                  <div class=" fw-bold fs-1" style="line-height: 0.9;">Endless <br> Possibilities <br> with <span class="text-purple-500">flex</span>
-                    <div class="mt-4 d-flex justify-content-center align-items-center">
-                      <div class="btn btn-primary d-flex justify-content-center align-items-center rounded-circle" style="width: 50px; height: 50px;">A</div><div class="btn btn-primary p-3 rounded-5 text-sm mx-2"> 20k Satisfies users</div>
-                    </div>
-                  </div>
-                  <div class="relative d-flex justify-content-end">
-                      <div class="p-5 bg-purple-400 backdrop-filter backdrop-blur-lg bg-opacity-10 rounded-5 h-100 d-flex justify-content-center align-items-center" style=" margin-left:90px;">
-                          <img class=" rounded-5 mx-2 shadow-lg" src="./assets/img/blank-phone.jpg" alt="" style="object-fit:cover; width: 100%; height: 40vh; margin-left:0px;">
-                          <img class=" rounded-5 mx-2 shadow-lg" src="./assets/img/future-woman.png" alt="" style="object-fit:cover; width: 100%; height: 40vh; margin-left:0px;">
-                      </div>
-                      
-                  </div>
-  
-                </div>
-              </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class=" text-black mt-2 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px; background-color: #c6fd7c">
+                <div class=" ">Deep concerns about student 1 ...</div>
             </div>
         </div>
         <div class="col-md-6 ">
-            <div class="bg-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-80 text-black mt-4 rounded-5 p-5 d-flex justify-content-between" style="height: 300px;">
-                <div class=" fw-bold fs-1 flex-text" style="line-height: 0.9;">Endless <br> Possibilities <br> with <span class="text-purple-600 flex-title">flex</span>
-                  <div class="mt-4 d-flex justify-content-center align-items-center">
-                    <div class=" d-flex justify-content-center align-items-center rounded-circle bg-black text-white text-sm" style="width: 50px; height: 50px; font-family:fantasy;">flex</div><div class="btn btn-primary p-3 rounded-5 text-sm mx-2"> <span class="fs-4 fw-bolder">20k</span> <span class=""style="font-size: 0.6rem">Satisfied users</span></div>
-                  </div>
-                </div>
-                <div class="relative d-flex justify-content-end">
-                    <div class="p-5 bg-purple-400 backdrop-filter backdrop-blur-lg bg-opacity-10 rounded-5 h-100 d-flex justify-content-center align-items-center" style=" margin-left:90px;">
-                        <img class=" rounded-5 mx-2 shadow-lg" src="./assets/img/blank-phone.jpg" alt="" style="object-fit:cover; width: 100%; height: 40vh; margin-left:0px;">
-                        <img class=" rounded-5 mx-2 shadow-lg" src="./assets/img/future-woman.png" alt="" style="object-fit:cover; width: 100%; height: 40vh; margin-left:0px;">
-                    </div>
-                    
-                </div>
-
+            <div class=" bg-black text-white mt-2 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px; z-index: 10000;"> Purple #7857FE Lemon Green #C6FD7C
+                <div class=" ">Deep concerns about student 1 ...</div>
             </div>
         </div>
-        <!-- End New Slide-->
+        
       </div>
-      <!--Third-->
-      <div class=" ">
-        <div class="swiper fadeSwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide bg-black text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px;">
-              <div class=" ">Deep concerns about student 1 ...</div>
-            </div>
-            <div class="swiper-slide bg-black text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px;">
-              <div class=" ">Deep concerns about student 2 ...</div>
-            </div>
-            <div class="swiper-slide bg-white text-black mt-4 rounded-5 p-5 d-flex justify-content-between" style="height: 300px;">
-              <div class=" fw-bold fs-1" style="line-height: 0.9;">Endless <br> Possibilities <br> with <span class="text-purple-500">flex</span>
-                <div class="mt-4 d-flex justify-content-center align-items-center">
-                  <div class="btn btn-primary d-flex justify-content-center align-items-center rounded-circle" style="width: 50px; height: 50px;">A</div><div class="btn btn-primary p-3 rounded-5 text-sm mx-2"> 20k Satisfies users</div>
-                </div>
-              </div>
-              <div class="relative d-flex justify-content-end">
-                  <div class="p-5 bg-purple-400 backdrop-filter backdrop-blur-lg bg-opacity-10 rounded-5 h-100 d-flex justify-content-center align-items-center" style=" margin-left:90px;">
-                      <img class=" rounded-5 mx-2 shadow-lg" src="./assets/img/blank-phone.jpg" alt="" style="object-fit:cover; width: 100%; height: 40vh; margin-left:0px;">
-                      <img class=" rounded-5 mx-2 shadow-lg" src="./assets/img/future-woman.png" alt="" style="object-fit:cover; width: 100%; height: 40vh; margin-left:0px;">
-                      <img class=" rounded-5 mx-2 shadow-lg" src="./assets/img/white-woman.webp" alt="" style="object-fit:cover; width: 100%; height: 40vh; margin-left:0px;">
-                  </div>
-                  
-              </div>
+      <!--End Under Hero-->
 
-            </div>
-          </div>
-        </div>
-    </div>
-      <div class="row g-2" style="z-index:100000;">
-          <div class="col-md-3 ">
-              <div class=" text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center mb-4" style="height: 300px; background-color: #7857fe;">
-                  <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-          </div>
-          <div class="col-md-3 ">
-              <div class=" text-black mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center mb-4" style="height: 300px; background-color: #c6fd7c">
-                  <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-          </div>
-          <div class="col-md-6 ">
-              <div class=" bg-black text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center mb-4" style="height: 300px; z-index: 10000;"> Purple #7857FE Lemon Green #C6FD7C
-                  <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-          </div>
-          
-      </div>
-
-      
-    </div>
-  <!--Tests Pro-->
+    <!--Tests Pro-->
     <!-- Bottom Hero-Cards-->
     <section class=" my-4 overflow-hidden" >
       <div class="row g-4">
@@ -331,10 +196,17 @@
 
         <!-- Image-->
         <div class="col-md-6" data-aos="fade-left" data-aos-delay="60">
-          <div class="d-flex justify-content-center align-items-center btm-hero-img card-image swiping">
+          <div class="d-flex justify-content-center align-items-center shadow-sm btm-hero-img card-image swiping position-relative">
             <!--<h1>Image of smiling student</h1>-->
-            <img src="./assets/img/woman-with-smartphone.png" alt="" class="rounded-5" style="object-fit: cover; height:500px;">
-          </div>
+            <img src="./assets/img/man-holding-phone2.png" alt="" class="rounded-5" style="object-fit: cover; height: 500px;">
+            
+            <!--<div class="info-card rounded-5 p-5 bg-black-400 shadow-lg backdrop-filter backdrop-blur-lg bg-opacity-10 position-absolute start-0 translate-middle-y" style="top: 85%;">
+                <div class="btn btn-primary"></div>
+                <div class="btn btn-primary"></div>
+                <div class="btn btn-primary"></div>
+            </div>-->
+        </div>
+        
         </div>
       </div>
     </section>
@@ -538,152 +410,6 @@
     </section>
     <!-- End Hypes & CTA Section-->
 
-
-    <!-- Tests Pro-->
-    <div class="container-fluid mt-3 rounded-5" style="background: linear-gradient(135deg, #b3c1cf 10%, #7857fe 100%);">
-      <div class="row g-2">
-          <div class="col-md-6 ">
-              <div class=" bg-purple-500 text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center shadow-lg" style="height: 300px;">
-                  <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-          </div>
-          <div class="col-md-3 ">
-              <div class=" bg-black text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px;">
-                  <div class=" bg-purple-600 backdrop-filter backdrop-blur-lg bg-opacity-40 p-3 fs-1 px-5 rounded-4">a</div>
-              </div>
-          </div>
-          <div class="col-md-3">
-              <div class=" bg-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-80 text-black shadow-lg mt-4 rounded-5 p-5" style="height: 300px;">
-                  <div class=" "><h1 class="fw-bold text-center"><span class="fw-bold rounded-circle bg-black text-white p-3">L</span> Track Projects</h1>
-                      <div class="slider p-2 rounded-5 bg-purple-500 mt-5 px-4">
-                          <h1>Done</h1>
-                      </div>
-                      <div class="slider p-2 rounded-5 bg-purple-500 mt-2 px-4">
-                          <h1>In-Progress</h1>
-                      </div>
-                      <div class="slider p-2 rounded-5 bg-purple-500 mt-2 px-4">
-                          <h1>In-Progress</h1>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <!--Second-->
-      <div class="row g-2">
-          <div class="col-md-6 ">
-              <div class=" bg-black text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center" style="height: 300px;">
-                  <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-          </div>
-          <div class="col-md-6 ">
-              <div class=" bg-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-80 text-black mt-4 rounded-5 p-5 d-flex justify-content-between sticky-30" style="height: 300px;">
-                  <div class=" fw-bold">Deep concerns about student 1 ...</div>
-                  <div class="relative d-flex justify-content-end">
-                      <div class="p-5 bg-purple-500 rounded-5 h-100" >
-                          <img class=" relative rounded-5 mb-5" src="./assets/img/blank-phone.jpg" alt="" style="object-fit:contain; width: 300px; margin-bottom: 300px; top: 0;">
-                      </div>
-                      
-                  </div>
-
-              </div>
-          </div>
-      </div>
-      <!--Third-->
-      <div class="row g-2">
-          <div class="col-md-3 ">
-              <div class=" text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center mb-4" style="height: 300px; background-color: #7857fe;">
-                  <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-          </div>
-          <div class="col-md-3 ">
-              <div class=" text-black mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center mb-4" style="height: 300px; background-color: #c6fd7c">
-                  <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-          </div>
-          <div class="col-md-6 ">
-              <div class=" bg-black text-white mt-4 rounded-5 p-5 d-flex justify-content-center align-items-center mb-4" style="height: 300px;"> Purple #7857FE Lemon Green #C6FD7C
-                  <div class=" ">Deep concerns about student 1 ...</div>
-              </div>
-          </div>
-          
-      </div>
-
-      <div class="contact-us mb-3 rounded-5 bg-black p-4 mt-3" style="background: linear-gradient(135deg, #7857fe 100%, #b3c1cf 10%);">
-        <div class="row">
-
-          <!-- Social Links-->
-          <div class="col-md-4 mb-4" data-aos="fade-left" data-aos-delay="300">
-            <div class="card bg-gray-200 backdrop-filter backdrop-blur-lg bg-opacity-80 shadow-lg p-4 rounded-5">
-              <div class="social-links text-center fw-bold text-sm mb-3">
-                <div class="row g-3">
-                  <!-- First Row -->
-                  <div class="col-6">
-                    <button href="https://google.com" class="btn btn-primary fw-bold w-100">
-                      <!--<svg width="26" height="26" fill="currentColor">
-                        <!-- Facebook Icon --
-                      
-                      </svg>-->
-                      <span><i class="fa-brands fa-facebook"></i> <!--Facebook--></span>
-                    </button>
-                  </div>
-                  <div class="col-6">
-                    <button href="https://google.com" class="btn btn-danger fw-bold w-100">
-                      <!--<svg width="26" height="26" fill="currentColor">
-                        <!-- YouTube Icon 
-                      </svg>-->
-                      <span><i class="fa-brands fa-youtube"></i> <!--YouTube--></span>
-                    </button>
-                  </div>
-                  <!-- Second Row -->
-                  <div class="col-6">
-                    <button href="https://google.com" class="btn btn-dark w-100">
-                      <!--<svg width="26" height="26" fill="currentColor">
-                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
-                      </svg>-->
-                      <span><i class="fa-brands fa-x-twitter"></i></span>
-                    </button>
-                  </div>
-                  <div class="col-6">
-                    <button href="https://google.com" class="btn btn-info  fw-bold w-100">
-                      <!--<svg width="26" height="26" fill="currentColor">
-                        <!-- Discord Icon 
-                      </svg>-->
-                      <span><i class="fa-brands fa-discord"></i> <!--Discord--></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-          <!-- End Social Links-->
-
-          <!-- Contacts-->
-          <div class="col-md-8" data-aos="fade-right" data-aos-delay="300">
-            <div class="card p-4 rounded-5">
-              <div class="email-info d-flex flex-column flex-md-row justify-content-between align-items-center fw-bold text-sm" style="height: 100px;">
-                <div class="text text-center text-md-start">
-                  <h5>EMAIL SUPPORT @</h5>
-                  <h5>abcdefg@gmail.com</h5>
-                </div>
-                <div class="text text-center">
-                  <h5 class="text-center">EMAIL US @</h5>
-                  <h5>abcdefg@gmail.com</h5>
-                </div>
-                <div class="text text-center text-md-end">
-                  <h5>CHAT WITH LIVE SUPPORT</h5>      
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-        
-      </div>
-    </div>
-  <!--Tests Pro-->
-
-
     <!-- Contact Us Section-->
     <section class="mt-3 " data-aos="fade-right" data-aos-delay="200">
       <div class="contact-us mb-3 rounded-5 bg-black p-4 mt-3" style="background: linear-gradient(135deg, #7857fe 100%, #b3c1cf 10%);">
@@ -762,81 +488,92 @@
     <!-- End Contact Us Section-->
 
 
-     <!--Wish to join -->
-     <section>
-      <div class="container-fluid wish bg-gray-900 p-5 rounded-5 text-white">
-        <div class="row">
-          <div class="col-md-4">
-            <h1>WISH TO BE A PART OF WHAT WE ARE BUILDING</h1>
-            <h2>Your expertise is highly needed..</h2>
-            <p>Please fill the form to proceed.</p>
+    <section id="hero-section" class="hero-section mt-3" data-aos="fade-right" data-aos-delay="10">
+      <div class="swiping" data-aos="fade-up" data-aos-delay="10">
+        <div class=" rounded-5 text-center">
+          <div class="">
+              <div class="bg-purple-500 hero-post-item rounded-5">
+                <img src="./assets/img/join-us.png" alt="hero image">
+                <div class="hero-post-content">
+                  <h2><a href="#" class="hero-font">Do you wish to be a part of what we are building</a></h2>
+                  <p>Your expertise is highly needed</p>
+                  <div class="btn bg-yellow-500 fw-bold text-white" data-bs-toggle="modal" data-bs-target="#joinModal"> Click to fill form</div>
+                  <!--<a href="#" class="socialmedia-links">Read More <i class="bi bi-arrow-right"></i></a>-->
+                </div>
+              </div>
           </div>
-          <div class="col-md-8 ">
-            <form>
-              <div class="max-w-2xl mx-auto p-6 bg-white shadow-lg rounded-lg">
-                <h2 class="text-2xl font-bold text-gray-800 mb-4">Seeking Developers</h2>
-                <form action="#" method="POST" class="space-y-4">
-                  
+        </div>
+      </div>
+    </section>
+
+     <!-- Wish Modal -->
+    <div class="modal fade bottom-drawer" id="joinModal" tabindex="-1" aria-labelledby="joinModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content p-4">
+              <div class="modal-header">
+                  <h2 class="modal-title fs-1 hero-font hero-title text-purple-700" id="joinModalLabel">flex</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <h2 class="hero-font hero-title text-center">Join Us Today</h2> <br>
+                <form action="#" method="POST">
                   <!-- Name -->
-                  <div>
-                    <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
-                    <input type="text" id="name" name="name" required class="mt-1 block w-full p-2 border rounded-lg text-dark shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                  <div class="mb-3">
+                    <label for="name" class="form-label fw-bold text-gray-700">Full Name</label>
+                    <input type="text" id="name" name="name" required class="form-control fw-bold text-gray-700">
                   </div>
-                  
+    
                   <!-- Email -->
-                  <div>
-                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-                    <input type="email" id="email" name="email" required class="mt-1 block w-full p-2 border rounded-lg text-dark shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                  <div class="mb-3">
+                    <label for="email" class="form-label fw-bold text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" required class="form-control fw-bold text-gray-700">
                   </div>
-                  
+    
                   <!-- Role -->
-                  <div>
-                    <label for="role" class="block text-sm font-medium text-gray-700">Role</label>
-                    <select id="role" name="role" required class="mt-1 block w-full p-2 border rounded-lg text-dark shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                  <div class="mb-3">
+                    <label for="role" class="form-label fw-bold text-gray-700">Role</label>
+                    <select id="role" name="role" required class="form-select fw-bold text-gray-700">
                       <option value="frontend">Frontend Developer</option>
                       <option value="backend">Backend Developer</option>
                       <option value="fullstack">Full Stack Developer</option>
                     </select>
                   </div>
-                  
+    
                   <!-- Skills -->
-                  <div>
-                    <label for="skills" class="block text-sm font-medium text-gray-700">Skills</label>
-                    <input type="text" id="skills" name="skills" placeholder="e.g.React, JavaScript, PHP, Firebase" class="mt-1 block w-full p-2 border rounded-lg text-dark shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                  <div class="mb-3">
+                    <label for="skills" class="form-label fw-bold text-gray-700">Skills</label>
+                    <input type="text" id="skills" name="skills" placeholder="e.g. React, JavaScript, PHP, Firebase" class="form-control fw-bold text-gray-700">
                   </div>
                   
                   <!-- Experience -->
-                  <div>
-                    <label for="experience" class="block text-sm font-medium text-gray-700">Years of Experience</label>
-                    <input type="number" id="experience" name="experience" min="0" required class="mt-1 block w-full p-2 border rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                  <div class="mb-3">
+                    <label for="experience" class="form-label fw-bold text-gray-700">Years of Experience</label>
+                    <input type="number" id="experience" name="experience" min="0" required class="form-control fw-bold text-gray-700">
                   </div>
                   
                   <!-- Message -->
-                  <div>
-                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
-                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full p-2 border rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+                  <div class="mb-3">
+                    <label for="message" class="form-label fw-bold text-gray-700">Message</label>
+                    <textarea id="message" name="message" rows="4" class="form-control fw-bold text-gray-700" placeholder="Not more than 500 words."></textarea>
                   </div>
                   
                   <!-- Submit Button -->
                   <div>
-                    <button type="submit" class="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700">Submit</button>
+                    <button type="submit" class="btn btn-dark w-100">Submit</button>
                   </div>
+    
                 </form>
-              </div>              
-
-            </form>
-
+              </div>
           </div>
-        </div>
       </div>
-     </section>
+    </div>
      <!--End Wish-->
 
     <!-- Footer -->
-    <footer id="footer" class=" footer d-flex justify-content-center align-items-center bg-purple-700 mt-2 rounded-5 mb-2 p-3">
+    <footer id="footer" class=" footer d-flex justify-content-center align-items-center bg-black shadow-lg mt-2 rounded-t-5 mb-2 p-3 flex-title ">
       
       <div class=" copyright text-center text-white mt-2">
-        <p>© <strong class="px-1 logo">FLEX</strong> <span>All Rights Reserved</span></p>
+        <p>© <strong class="px-1 logo hero-font">flex 2025</strong> <br> <span>All Rights Reserved</span></p>
       </div>
   
     </footer>
